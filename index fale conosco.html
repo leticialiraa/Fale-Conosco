@@ -1,0 +1,51 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html lang="pt-BR">
+
+
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<div class="container">
+   <div class="card">
+      <div class="card-header"><span class="h4">Contato</span><div class="text-muted"><div></div></div>
+      </div>
+      <div class="card-body">
+         <div id="divRequired" class="alert alert-danger" style="display: none;"><button type="button" class="close">&times;</button><strong>Verifique os campos abaixo:</strong><div id="msgAtencao">
+               <ul></ul>
+            </div>
+         </div>
+         <form id="frmQuestionario" class="form-validate" method="post" action="https://pe.sesi.org.br:8443/webp/tools/research.jsp"><input type="hidden" name="fileMore" value="https://pe.sesi.org.br/contato/Research200content366.shtml" class="camposForm"><input type="hidden" name="sitePid_33" value="33" class="camposForm"><input type="hidden" name="componentPid_200" value="200" class="camposForm"><input type="hidden" name="returnType" id="returnType" value="json"><input type="hidden" name="captcha" id="captcha" value="false"><div class="row">
+               <div class="col-md-12">
+                  <div class="col-md-12"><label class="sr-only">Nome&nbsp;</label></div>
+                  <div class="col-md-12 form-group"><input type="text" name="f76" id="Nome" placeholder="Nome" class="form-control"></div>
+                  <div class="col-md-12"><label class="sr-only">Telefone&nbsp;</label></div>
+                  <div class="col-md-12 form-group"><input class="camposForm telefone form-control" type="text" name="f77" id="Telefone" placeholder="Telefone" onKeyPress="return
+                     validateTelefone(event, this.value, this.name);" size="18">
+                  </div>
+                  <div class="col-md-12"><label class="sr-only">E-mail&nbsp;</label></div>
+                  <div class="col-md-12 form-group"><input class="camposForm form-control" type="text" name="f78" placeholder="E-mail (obrigatório)" id="E-mail" onBlur="javaScript:validateEmail(this.value,
+                     this.name);" size="40">
+                  </div>
+                  <div class="col-md-12"><label class="sr-only">Endereço&nbsp;</label></div>
+                  <div class="col-md-12 form-group"><input type="text" name="f79" id="Endereço" placeholder="Endereço" class="form-control"></div>
+                  <div class="col-md-12"><label class="sr-only">CPF/CNPJ&nbsp;</label></div>
+                  <div class="col-md-12 form-group"><select class="form-control" name="f80" id="CPF/CNPJ" onChange="javaScript:showHide('80', this.value);"><option value="">--
+                     Selecione --</option><option value="CPF">CPF</option><option value="CNPJ">CNPJ</option></select>
+                  </div>
+                  <div class="col-md-12 form-group"><table id="table_80_CPF" style="display:none"><tr> <td id="table_80_CPF" class="camposGeral"><span class="descCampo">CPF</span><br/><input
+                     class="camposForm form-control" type="text" name="f81" id="CPF" placeholder="CPF" maxlength="15" onBlur="validateCpf(this.value,
+                     this.name);" size="18"></td></tr></table> <table id="table_80_CNPJ" style="display:none"><tr> <td id="table_80_CNPJ" class="camposGeral"><span
+                     class="descCampo">CNPJ</span><br/><input class="camposForm form-control" type="text" name="f82" id="CNPJ" placeholder="CNPJ"
+                     maxlength="20" onBlur="validateCnpj(this.value, this.name);" size="23"></td></tr></table>
+                  </div>
+                  <div class="col-md-12"><label class="sr-only">Mensagem&nbsp;</label></div>
+                  <div class="col-md-12 form-group"><textarea name="f83" placeholder="Mensagem" id="Mensagem" rows="4" class="form-control"></textarea></div>
+                  <div class="col-md-12 form-group">
+                     <tr>
+                      
+</body>
+
+</html>
